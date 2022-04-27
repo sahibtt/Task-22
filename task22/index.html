@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/styles/style.css">
+</head>
+<body>
+    <div class="form-login">
+        <div class="username-container">
+            <input type="text" name="username" id="username" placeholder="Username *">
+            <i class="fas fa-exclamation-circle"></i>
+            <small id="username-err"></small>
+        </div>
+        <div class="email-container">
+            <input type="text" name="username" id="email" placeholder="Email *">
+            <i class="fas fa-exclamation-circle"></i>
+            <small id="email-err"></small>
+        </div>
+        <div class="password-container">
+            <input type="password" name="pwd" id="pwd" placeholder="Your password *">
+            <i class="fas fa-exclamation-circle"></i>
+            <small id="pwd-err"></small>
+        </div>
+        <div class="login-footer">
+            <div class="check-form">
+                <input type="checkbox" name="remember" id="remember">
+                <label for="remember">Remember me</label>
+            </div>
+        </div>
+        <div class="login-button">
+            <button class="btnSubmit">Log in</button>
+        </div>
+    </div>
+</body>
+<script src="./assets/javascript/script.js"></script>
+</html>

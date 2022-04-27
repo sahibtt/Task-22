@@ -1,0 +1,13 @@
+i{
+    visibility: hidden;
+}
+small{
+    border: 0px !important;
+}
+.username-container input,.email-container input, .password-container input{
+    padding: 7px;
+}
+.username-container ,.email-container, .password-container, .login-footer,.login-button {
+    margin: 7px;
+}
+
